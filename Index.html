@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    
+    <script src="script.js"></script>
+ 
+
+    <link rel="stylesheet" href="work.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" >
+    <title>Smit Patel</title>
+</head>
+<body>
+    <a id="scrollup"><i class="fa-solid fa-arrow-up" id="scrolluparrow"></i></a>
+    <nav id="navbar" data-aos="fade-down" data-aos-duration="1000">
+        
+        <a  rel="noopener noreferrer" class="main-nav-symbol" id="home-text" href="#landing-page"  ><i class="fa-solid fa-house"></i><p class="home-text">Home</p></a> 
+        <a  rel="noopener noreferrer" class="main-nav-symbol" id="timeline-nav-text" href="#timeline-section" ><i class="fa-solid fa-user-graduate"></i><p class="timeline-nav-text" >Timeline</p></a>
+        <a  rel="noopener noreferrer" class="main-nav-symbol" id="skill-text" href="#skills-section" ><i class="fa-solid fa-brain" ></i><p class="skill-text" >Skills</p></a>
+        <a  rel="noopener noreferrer" class="main-nav-symbol" id="contact-text"  href="#work-section" ><i class="fa-solid fa-briefcase"></i><p class="contact-text" >Work</p></a>
+        <a  rel="noopener noreferrer" class="main-nav-symbol" id="contact-text"  href="#contact-section-hr" ><i class="fa-solid fa-user" ></i><p class="contact-text">Contact</p></a>
+        
+        
+
+        <div  id="bounce" style="border-radius: 50%; background-color: aqua; " type="button" onClick="Play()"><i class="fa-solid fa-music" style="color: #ff00dd; font-size: 15px; background-color: white; padding: 10px; border-radius: 50%;"></i></div>
+      <audio controls id="audioval" style="display: none; outline: none; border: none;">
+        <source src="music.mp3" type="audio/mp3">
+      </audio>
+    
+    
+    </nav>
+    <section id="landing-page"  >
+        <article class="intro" data-aos="fade-in">
+            <p class="online-text" style="color: black;">
+                
+            <span class="dot"></span>
+            Online.
+            </p>
+            <h1 class="first"  data-aos="fade-up">Hey, I'm <span class="marker" style="color: #523ee8; line-height: 0;">Smit&nbsp;Patel</span><br><span class="gradient">Life of DiversePassions</span></h1>
+
+            <div class="buttons-raw">
+
+                <div class="buttons-div"  data-aos="fade-left" data-aos-delay="600">
+                    <a   rel="noopener noreferrer" class="socialmedia-button"  target="_blank" href="https://www.linkedin.com/in/smit-patel-a7b702285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" ><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                </div>
+                <div class="buttons-div"  data-aos="fade-left" data-aos-delay="900">
+                    <a  rel="noopener noreferrer" class="socialmedia-button"   target="_blank" href="https://www.instagram.com/drx.smit.patel/" ><i class="fa-brands fa-instagram" ></i>Instagram</a>
+                </div>
+                <div class="buttons-div" data-aos="fade-left" data-aos-delay="1200">
+                  <a rel="noopener noreferrer" class="socialmedia-button" target="_blank" href="mailto:patelsmitmanilal@gmail.com">
+                      <i class="fa-regular fa-envelope"></i>Mail
+                  </a>
+                </div>
+              
+                
+
+            </div>
+            
+            <p class="intro-para">Hi, I am Smit, a recent B.pharm graduate with valuable experience from a 1 month internship.<br></p>
+            <section class="resume-section">
+              <div class="buttons-div"  data-aos="fade-left" data-aos-delay="900">
+                <a  rel="noopener noreferrer" class="socialmedia-button"   target="_blank" href="https://www.instagram.com/drx.smit.patel/" >Resume<i id="resume-arrow" style="transform: rotate(-45deg);" class="fa-solid fa-arrow-right" ></i></a>
+              </div>
+            </section>
+
+        </article>
+        <main data-aos="zoom-in">
+            <div class="cloud-message">
+               
+                <img id="myimage" src="IMG_6303.PNG">
+                
+            </div>
+              
+        </main>
+        
+        <div id="location-div" data-aos="slide-up">
+          <ul class="location-text-div" id="location">
+            <li><span>Bapunagar</span></li>
+            <li><span>Ahmedabad</span></li>
+            <li><span>India</span></li>
+          </ul>
+          <div id="globec">
+            <svg id="earth" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 504.1 504.1" style="enable-background:new 0 0 504.1 504.1;" xml:space="preserve">
+              <path class="st0"id="stand" d="M396.2 389.4c-3.2-5.5-10.6-7.5-16.1-4.3-101.2 58.3-230.8 24-289.1-76C33.1 209.1 68.1 80.3 169.4 22c5.5-3.2 7.5-10.6 4.3-16.1s-10.6-7.5-16.1-4.3c-112.6 65-151.6 208.3-87 319.4 40.2 69.3 110.7 109.9 185.5 115.4v32.3h-45.3c-9.8 0-17.7 7.9-17.7 17.7 0 9.8 7.9 17.7 17.7 17.7h114.2c9.8 0 17.7-7.9 17.7-17.7 0-9.8-7.9-17.7-17.7-17.7h-48.4 3.2v-31.5c38.2-.8 76.8-11 112.2-31.5C397.4 402 399.4 395 396.2 389.4z"></path>
+              <g id="earth_shape">
+                <path class="st1" d="M275.7 15.7c104.4 0 189 84.7 189 189s-84.7 189-189 189-189-84.7-189-189S171.3 15.7 275.7 15.7z"></path>
+                <path class="st2" d="M416.7 330.8c13-50.4 24.8-123.3-12.6-115-35.8 7.9-80.3 16.5-101.6 19.7s-46.9-18.1-75.6-33.5c-3.9-16.1-4.3-24.8 18.1-41.4 22.8-16.9 33.5 16.1 42.5 6.3 15-18.1 4.7-35.1 24-74.4 19.3-38.6 21.3-32.7 35.1-63-21.7-8.7-45.7-13.8-70.9-13.8-73.3 0-136.7 41.7-168.2 102.4 5.1 10.6 12.2 21.7 22.1 33.9 30.3 36.6 62.2 51.6 112.2 82.3 50 30.3 42.5 44.1 30.3 57.9-12.2 13.8-31.1 72.9 4.7 91.4l16.1 9.8C341.9 388.7 385.6 365.4 416.7 330.8z"></path>
+                <path class="st3" d="M303.3 366.2c-104.4 0-189-84.7-189-189 0-45.3 15.8-86.6 42.1-119.3-42.5 35.1-69.7 87.8-69.7 146.9 0 104.4 84.7 189 189 189 59.1 0 112.2-27.2 146.9-69.7C389.9 350.5 348.6 366.2 303.3 366.2z"></path>
+                <path class="st4" d="M417.1 328c-31.5 24-70.9 38.2-113.8 38.2-15.4 0-30.3-2-44.5-5.5 2.8 9.5 8.7 17.3 18.1 22.4 6.3 3.9 11.4 7.1 16.1 9.8h1.2l6.7-.8 2.8-.4 6.7-1.2 2.4-.4c7.5-1.6 15-3.5 22.1-5.9l2.4-.8c2-.8 3.9-1.2 5.5-2l3.5-1.2 5.1-2.4c1.2-.4 2.4-1.2 3.9-1.6l4.7-2.4 3.9-2 4.3-2.4 4.7-2.8c1.6-.8 2.8-1.6 4.3-2.8 2.4-1.6 4.3-3.2 6.7-4.3l3.2-2.4 4.7-3.5 3.2-2.4c1.6-1.2 3.2-2.4 4.3-3.5.8-.8 2-1.6 2.8-2.8l4.3-3.9c.8-.8 1.6-1.6 2.8-2.4l4.7-4.7 2-2 .4-.4C416.7 330 417.1 328.8 417.1 328L417.1 328zM118.5 137c6.3-29.1 19.7-55.9 37.8-78.8l-.4.4c-2.4 2-4.3 3.5-6.3 5.5l-2 2c-1.6 1.6-3.5 3.2-5.1 5.1l-2.4 2.4-4.7 4.7c-.8.8-1.6 1.6-2.4 2.8l-4.7 5.9c-.8.8-1.6 2-2.4 3.2l-3.2 3.9-3.2 4.3-3.2 4.7c-.8 1.2-1.6 2.4-2.4 3.9l-2.4 3.5-3.5 6.3-1.2 2C110.7 124.4 114.2 130.3 118.5 137z"></path>
+              </g>
+            </svg>
+          </div>
+       </div>
+    </section>
+    <hr id="timeline-section">
+ 
+    <section id="timeline" style="overflow: hidden;"  >
+        <h2 class="section-title">My Timeline</h2>
+        <section class="timeline-section">
+            <div class="timeline-items">
+                <div class="timeline-item"  data-aos="fade-right" >
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2017</div>
+                    <div class="timeline-content" >
+                        <h3 class="timeline-h3">Secondary School (10th Grade)</h3>
+                        <p class="timeline-text">GSEB</p>
+                        <!-- <p2>Gujarat Secondary and Higher Secondary Education Board</p2> -->
+                        <p class="timeline-text"> Percentile Rank-81.52%</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2018</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-h3">Higher Secondary (12th Grade)</h3>
+                        <p class="timeline-text">GSEB</p>
+                        <!-- <p2>Gujarat Secondary and Higher Secondary Education Board</p2> -->
+                        <p class="timeline-text">Percentile Rank-92.87%</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right"> 
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2019</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-h3">B.Pharm</h3>
+                        <p><span class="text-indigo-300 cursor-pointer hover:underline transition-all"><a href="http://www.tutonpharma.com/" target="_blank" rel="no-referrer" style="color:#0027eb; text-decoration: none;">@Gujarat Technological University</a></span></p>
+                        <p class="timeline-text">CGPA - 7.55</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-h3">Internship (Sem-7)</h3>
+                        <p><span class="text-indigo-300 cursor-pointer hover:underline transition-all"><a href="http://www.tutonpharma.com/" target="_blank" rel="no-referrer" style="color:#0027eb; text-decoration: none;">@Tuton Pharmaceuticals</a></span></p>
+                        <p class="timeline-text">GIDC, Naroda, Ahmedabad, </p>
+                        <p class="timeline-text">Gujarat 380030</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-h3">First Job</h3>
+                        <p><span class="text-indigo-300 cursor-pointer hover:underline transition-all"><a href="https://www.ambicapharmamachinery.in/" target="_blank" rel="no-referrer" style="color: #0027eb; text-decoration: none;">@Allmach Pharma Machinery</a></span>
+                            <p class="timeline-text">Digital Marketing Head</p>
+                    </div>
+                </div>
+                <!-- <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020</div>
+                    <div class="timeline-content">
+                        <h3>timeline item title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021</div>
+                    <div class="timeline-content">
+                        <h3>timeline item title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+    </section>
+    <hr id="skills-section-hr">
+    
+    <section id="skills-section"  >
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="cell">
+          <span class="icon">
+            <img class="skill-icon" src="problemsolving.png">
+          </span>
+          <p class="skill-title">ProblemSolving</p>
+        </div>
+        <div class="cell">
+          <span class="icon">
+            <img class="skill-icon" src="adaptation.png">
+          </span>
+          <p class="skill-title">Adaptibility</p>
+        </div>
+        <div class="cell">
+          <span class="icon">
+            <img class="skill-icon" src="networking.png">
+          </span>
+          <p class="skill-title">Communication</p>
+        </div>
+        <div class="cell">
+          <span class="icon">
+            <img class="skill-icon" src="teamwork.png">
+          </span>
+          <p class="skill-title">Teamwork</p>
+        </div>
+        <div class="cell">
+          <span class="icon">
+            <img class="skill-icon" src="authenticity.png">
+          </span>
+          <p class="skill-title">Quality Control</p>
+        </div>
+        
+      </div>
+      
+      
+      
+    </section>
+    <hr id="work-section">
+
+      
+    <section id="work"  class="game-section">
+      <h2 class="section-title">Work</h2>
+      
+      <div class="work-center-div">
+        <div class="owl-carousel custom-carousel owl-theme">
+          <div class="item" style="background-image: url(dragon.png);">
+            <div class="item-desc">
+              <h3>College Project</h3>
+              <p>
+                <li>Dragon Fruit Serum</li>
+                <ul class="details-ul">
+                  <li>Dragon Fruit extract</li>
+                  <li>Tea tree oil</li>
+                  <li>Coconut Oil</li>
+                  <li>Carbopol</li>
+                  <li>Glycerine</li>
+                  <li>Tween 20</li>
+                  <li>Potassium sorbate</li>
+                  <li>Dm Water</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="owl-carousel custom-carousel owl-theme">
+          <div class="item" style="background-image: url(tuton.png);">
+            <div class="item-desc">
+              <h3>Internship</h3>
+              <li>Industrial Training of 30-days in QC and QA Department <br><li> 85, G I D C, Naroda, behind Pepsi Factory, Naroda, Ahmedabad, Gujarat 380030, India</li> </li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <hr id="contact-section-hr"  >
+     
+    
+    
+    <section class="contact-section">
+      <div class="contact-contaner" style="position: relative; top: 0; left: 0; right: 0;">
+        <div class="form-container">
+           <div class="left-container">
+               <div class="left-inner-container">
+                    <h2 class="section-title" data-aos="fade-up">Let's Chat</h2>
+                    <p data-aos="fade-up">Whether you have a question, want to start a conversation.</p>
+                    <br>
+                    <p data-aos="fade-up">Feel free to send me a message in the contact form</p>
+              </div>
+              
+                
+           </div>
+          <div class="right-container">
+            <div class="right-inner-container">
+                <form id="contactForm" action="https://formsubmit.co/psmit8320@gmail.com"  target="_blank" method="POST" data-aos="fade-left">
+                  <h2 class="section-title">Contact</h2>
+                  
+                 <!-- <p>* Required</p> -->
+                  <!-- <div class="social-container">
+                      <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                      <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                  </div> -->
+                <input type="text" name="name" placeholder="Name *"  />
+                <input type="email" name="Email" placeholder="Email *" />
+                <input type="text" name="Company" placeholder="Company" />
+                <input type="phone" name="phone" placeholder="Phone"  />
+                <textarea rows="4" name="message" placeholder="Message"></textarea>
+                <button type="submit"  class="submit-button">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="line" >
+    <section id="thanks">
+   
+     <div id="moving-text">
+        <div class="con">
+            <h1>THANKS FOR SCROLLING</h1>
+            <div id="gola"></div>
+            <h1>THANKS FOR SCROLLING</h1>
+            <div id="gola"></div>
+            <h1>THANKS FOR SCROLLING</h1>
+            <div id="gola"></div>
+        </div>
+        <div class="con">
+            <h1>THANKS FOR SCROLLING</h1>
+            <div id="gola"></div>
+            <h1>THANKS FOR SCROLLING</h1>
+            <div id="gola"></div>
+            <h1>THANKS FOR SCROLLING</h1>
+            <div id="gola"></div>
+        </div>
+        <div class="con">
+            <h1>THANKS FOR SCROLLING</h1>
+            <div id="gola"></div>
+            <h1>THANKS FOR SCROLLING</h1>
+            <div id="gola"></div>
+            <h1>THANKS FOR SCROLLING</h1>
+            <div id="gola"></div>
+        </div>
+     </div>
+  
+       
+    </section>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        let locationtext = document.getElementById('location');
+        let locationdiv = document.getElementById('location-div');
+        let stand = document.getElementById('stand');
+        let isExpanded = false;
+    
+        document.getElementById('globec').addEventListener('click', function() {
+          if (isExpanded) {
+            locationtext.style.width = "0";
+            locationdiv.style.border = "none";
+            locationdiv.style.backgroundColor = "transparent";
+            stand.style.fill = "#523EE8";
+          } else {
+            locationtext.style.width = "8em";
+            locationdiv.style.backgroundColor = "#523EE8";
+            stand.style.fill = "white";
+          }
+          isExpanded = !isExpanded;
+        });
+      });
+    </script>
+    
+ 
+<script>
+  var lastScrollTop = 0
+navbar = document.getElementById("navbar")
+window.addEventListener("scroll", function() {
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop
+    if (scrollTop > lastScrollTop) {
+        navbar.style.top = "-80px"
+    } else {
+        navbar.style.top = "7vh"
+
+    }
+    lastScrollTop = scrollTop
+})
+ 
+
+// Initial call to start the smooth scrolling
+smoothScroll();
+
+</script>
+<script>
+
+function codeAddress() {
+  document.getElementById("bounce").style.animation = "paused";
+}
+window.onload = codeAddress;
+
+function Play()
+      {
+        var myAudio = document.getElementById("audioval");
+        if(myAudio.paused) {
+            myAudio.play();
+            bounce.style.animation = "";
+         
+        }
+        else {
+           myAudio.pause();
+           document.getElementById("bounce").style.animation = "paused";
+        }
+      }
+
+</script>
+<script>
+    AOS.init(
+      
+    );
+    AOS.init({
+  duration: 1200,
+})
+
+</script>
+
+</body>
+</html>
